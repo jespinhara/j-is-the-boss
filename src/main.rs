@@ -87,10 +87,7 @@ fn main() {
     let matches = App::new("JBoss EAP/AS <= 6.X Vulnerability by @joaomatosf - A little bit beyond ACED")
         .version("1.0")
         .author("Exploit by: @jespinhara\n")
-        .about("\nTLP:RED  - Not for disclosure, restricted to participants only. \n\
-        This vulnerability still a 0day - DO NOT REPORT TO RED HAT! \n\
-        \nThis code exploits an unsafe and unconventional deserialization affecting the\n\
-        JBoss EAP/AS <= 6.X by default and  JBoss EAP/AS up to date if the targeted service is enabled.")
+        .about("\nJBoss EAP/AS <= 6.X by default and  JBoss EAP/AS up to date if the targeted service is enabled.")
         .arg(Arg::with_name("target")
             .short("t")
             .long("target")
